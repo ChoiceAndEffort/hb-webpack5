@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development webpack serve  --config build/webpack.dev.js",
     "build:test": "cross-env NODE_ENV=test webpack --config build/webpack.prod.js",
-    "build:show": "cross-env NODE_ENV=show webpack --config build/webpack.prod.js",
+    "build:show": "cross-env NODE_ENV=show webpack --config build/webpack.show.js",
     "build:prod": "cross-env NODE_ENV=production webpack --config build/webpack.prod.js",
     "fix": "eslint --fix --ext .js,.vue src --ignore-path .gitignore"
   },
