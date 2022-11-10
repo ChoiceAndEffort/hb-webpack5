@@ -1,4 +1,4 @@
 module.exports = {
-    NODE_ENV: '"production"',
-    url: '"https://erp-api.gggjpg.com:9999"'
+  NODE_ENV: 'production',
+  URL: 'production-url'
 };
