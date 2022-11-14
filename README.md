@@ -1,24 +1,10 @@
 
-### 模块位置
--  公共组件放置: hb-webpack5\src\components或者放置在gggj_lib组件库中
--  公共方法放置：hb-webpack5\src\utils
--  公共指令：hb-webpack5\src\directives
--  公共样式：hb-webpack5\src\styles
--  公共请求头放置：hb-webpack5\src\ajax
-
-  
--  页面放置     hb-webpack5\src\views
--  仓库放置     hb-webpack5\src\store
--  路由放置     hb-webpack5\src\router
--  图片放置     hb-webpack5\src\images
-
-
 
 ### 数据处理
-- 处理时间使用date-fns插件 https://zhuanlan.zhihu.com/p/354019460
+- 处理时间使用date-fns或者date.js插件 https://zhuanlan.zhihu.com/p/354019460
 - 处理数据使用lodash插件 https://www.lodashjs.com/ 
 - 处理页面打印插件vue-print-nb插件  https://www.npmjs.com/package/vue-print-nb
-- 处理浮点数 待确定
+- 处理浮点数 math.js
 
 
 ## 项目启动
